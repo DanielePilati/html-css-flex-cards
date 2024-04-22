@@ -4,3 +4,59 @@
   box-sizing: border-box;
   font-family: "Fredoka", sans-serif;
 }
+
+/*---------main header-------*/
+
+h1 {
+  color: #e53170;
+  text-align: center;
+  margin: 1.875rem;
+}
+h4 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+/*---------members list---------*/
+
+.container {
+  margin: 0 auto;
+  width: 60rem;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+/*--------members----------*/
+
+.team-member {
+  box-shadow: 2px 2px 1px rgb(78, 78, 78, 20%);
+  display: flex;
+  background-color: #0f0e17;
+  color: white;
+  height: 6.25rem;
+  width: calc(100% / 3 - 20px);
+  margin: 20px 10px;
+}
+
+.info div {
+  margin: 0.625rem;
+}
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img {
+  display: inline;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.mail {
+  color: #57c9f2;
+}
